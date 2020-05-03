@@ -12,6 +12,7 @@ import { Switch, Route } from 'react-router-dom'
 import menuItems from './component/menuapp/menuAppSource.json'
 import About from './component/about/About';
 import notFound404 from './component/notfound404/notFound404';
+import Header from './component/header/Header';
 /* Loading components finished*/
 
 /*
@@ -27,6 +28,9 @@ class App extends Component {
   render() {
     return (
       <div>
+
+        <Header />
+        
         <div id="root_header" class="flex-container-header">
           <div id="root_header_1" id="MenuApp">
             <MenuApp />
