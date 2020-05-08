@@ -47,5 +47,5 @@ https://scalac.io/user-authentication-keycloak-1/
 
 
 Libraries:
-Mateirial
+Material
 Axios
